@@ -1,0 +1,78 @@
+* {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffc0cb;
+  padding: 20px;
+}
+
+.navbar {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: larger;
+}
+
+main {
+  position: relative;
+  background-image: url("/assets/us.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ffc0cb;
+}
+
+button:disabled {
+  background-color: #ffc0cb96;
+  pointer-events: none;
+}
+
+#mensagem {
+  color: #ffffff;
+  background-color: #ffc0cbe0;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: x-large;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
